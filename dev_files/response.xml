@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Body>
+        <ns2:queryRS xmlns:ns2="http://soap.fiap.org/">
+            <transport xmlns="http://gutp.jp/fiap/2009/11/">
+                <header>
+                    <OK />
+                    <query id="df5fe59b-0323-4d36-a0c9-59646e96b3a9" type="storage">
+                        <key id="http://j.kisarazu.ac.jp/PlantFactory/Daisen/West/Temperature" attrName="time" select="maximum" />
+                    </query>
+                </header>
+                <body>
+                    <point id="http://j.kisarazu.ac.jp/PlantFactory/Daisen/West/Temperature">
+                        <value time="2018-05-03T22:29:00.000+09:00">0.00</value>
+                        <value time="2018-05-03T22:29:00.000+09:00">0.00</value>
+                    </point>
+                </body>
+            </transport>
+        </ns2:queryRS>
+    </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,14 @@
+<x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soa="http://soap.fiap.org/" xmlns:ns="http://gutp.jp/fiap/2009/11/">
+    <x:Body>
+        <soa:queryRQ>
+            <ns:transport>
+                <ns:header>
+                    <ns:query id="df5fe59b-0323-4d36-a0c9-59646e96b3a9" type="storage">
+                        <ns:key id="http://j.kisarazu.ac.jp/PlantFactory/Daisen/West/Temperature" attrName="time" select="maximum"></ns:key>
+                        <ns:key id="http://j.kisarazu.ac.jp/PlantFactory/Daisen/West/Temperature" attrName="time" select="maximum"></ns:key>
+                    </ns:query>
+                </ns:header>
+            </ns:transport>
+        </soa:queryRQ>
+    </x:Body>
+</x:Envelope>
